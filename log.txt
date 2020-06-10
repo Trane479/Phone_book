@@ -1,0 +1,94 @@
+
+2020-06-08.16:44:31 
+func name - __init__ 
+args - (<contact.Contact object at 0x02F5C130>, 'Jhon', 'Smith', '+71234567809'), kwargs - {'favorites': False, 'telegram': '@jhony', 'email': 'jhony@smith.com'} 
+result - None 
+ 
+2020-06-08.16:44:31 
+func name - __init__ 
+args - (<contact.Contact object at 0x02F5C2E0>, 'Gleb', 'Sevostyanov', '+7979456949', 'test'), kwargs - {'favorites': True, 'telegram': '@gleb'} 
+result - None 
+ 
+2020-06-08.16:44:31 
+func name - __init__ 
+args - (<contact.PhoneBook object at 0x02F5C1A8>, 'new_book'), kwargs - {} 
+result - None 
+ 
+2020-06-08.16:44:31 
+func name - add_contact 
+args - (<contact.PhoneBook object at 0x02F5C1A8>, <contact.Contact object at 0x02F5C2E0>), kwargs - {} 
+result - None 
+ 
+2020-06-08.16:44:31 
+func name - add_contact 
+args - (<contact.PhoneBook object at 0x02F5C1A8>, <contact.Contact object at 0x02F5C130>), kwargs - {} 
+result - None 
+ 
+2020-06-08.16:44:31 
+func name - __str__ 
+args - (<contact.Contact object at 0x02F5C2E0>,), kwargs - {} 
+result - Имя: Gleb
+Фамилия: Sevostyanov
+Телефон: +7979456949
+В избранных: да
+Дополнительная информация: 
+test
+telegram - @gleb
+ 
+ 
+2020-06-08.16:44:31 
+func name - __str__ 
+args - (<contact.Contact object at 0x02F5C130>,), kwargs - {} 
+result - Имя: Jhon
+Фамилия: Smith
+Телефон: +71234567809
+В избранных: нет
+Дополнительная информация: 
+telegram - @jhony
+email - jhony@smith.com
+ 
+ 
+2020-06-08.16:44:31 
+func name - show_contacts 
+args - (<contact.PhoneBook object at 0x02F5C1A8>,), kwargs - {} 
+result - None 
+ 
+2020-06-08.16:44:31 
+func name - delete_contact 
+args - (<contact.PhoneBook object at 0x02F5C1A8>, '+71234567809'), kwargs - {} 
+result - None 
+ 
+2020-06-08.16:44:31 
+func name - __str__ 
+args - (<contact.Contact object at 0x02F5C2E0>,), kwargs - {} 
+result - Имя: Gleb
+Фамилия: Sevostyanov
+Телефон: +7979456949
+В избранных: да
+Дополнительная информация: 
+test
+telegram - @gleb
+ 
+ 
+2020-06-08.16:44:31 
+func name - show_contact_by_name 
+args - (<contact.PhoneBook object at 0x02F5C1A8>, 'Gleb', 'Sevostyanov'), kwargs - {} 
+result - None 
+ 
+2020-06-08.16:44:31 
+func name - __str__ 
+args - (<contact.Contact object at 0x02F5C2E0>,), kwargs - {} 
+result - Имя: Gleb
+Фамилия: Sevostyanov
+Телефон: +7979456949
+В избранных: да
+Дополнительная информация: 
+test
+telegram - @gleb
+ 
+ 
+2020-06-08.16:44:31 
+func name - show_favorites 
+args - (<contact.PhoneBook object at 0x02F5C1A8>,), kwargs - {} 
+result - None 
+ 
